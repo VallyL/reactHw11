@@ -1,0 +1,16 @@
+.articleContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.articleContainer > button {
+  width: 100px;
+  cursor: pointer;
+  background-color: rgb(73, 73, 249);
+  color: white;
+  border: none;
+  padding: 10px;
+  box-shadow: 3px 3px 3px gray;
+  font-weight: 700;
+}

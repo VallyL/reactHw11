@@ -1,0 +1,18 @@
+.articleList {
+  display: flex;
+  gap: 15px;
+  padding-top: 25px;
+}
+
+.articleList > li {
+  list-style: none;
+}
+
+.articleList > li > a {
+  text-decoration: none;
+  background-color: rgb(73, 73, 249);
+  color: white;
+  padding: 10px 25px;
+  font-weight: 600;
+  box-shadow: 3px 3px 3px gray;
+}
